@@ -1,0 +1,66 @@
+/* General body styling */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 20px;
+	background-color: #f4f4f4;
+	text-align: center;
+}
+
+/* Title styling (#title) */
+#title {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+/* Description styling (#description) */
+#description {
+	font-size: 16px;
+	margin-bottom: 20px;
+	color: #555;
+}
+
+/* SVG container styling */
+svg {
+	background-color: white;
+	margin: 0 auto;
+	display: block;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heat map cells styling (.cell) */
+.cell {
+	stroke: #ffffff;
+	stroke-width: 0.5px;
+	transition: opacity 0.2s;
+}
+
+.cell:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+/* Tooltip styling (#tooltip) */
+#tooltip {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.75);
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 12px;
+	pointer-events: none;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+	opacity: 0;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+/* Legend container styling (#legend) */
+#legend {
+	font-size: 12px;
+}
+
+/* Legend rect styling */
+#legend rect {
+	stroke: #ccc;
+	stroke-width: 0.5px;
+}
